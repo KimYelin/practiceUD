@@ -1,0 +1,8 @@
+<h1>여기는 게시물 목록이 나오는 페이지입니다</h1>
+<a href="/new">새 글 쓰기</a><br><br>
+
+<%@posts.each do |post|%>
+    <%=post.title%><br>
+    <%=post.content%><br>
+    ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ<br>
+<%end%>
